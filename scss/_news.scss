@@ -1,0 +1,58 @@
+/* -------------------------------------------- */
+/* news*/
+/* -------------------------------------------- */
+
+.news-box-1,
+.news-box-2 {
+    width: 100%;
+    height: 226px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.5s;
+}
+.news-box-1:hover .news-box-opa,
+.news-box-2:hover .news-box-opa {
+    opacity: 0;
+    transition: 0.5s;
+}
+.news-box-1 {
+    background-image: url(../images/box1_img.jpg);
+}
+.news-box-2 {
+    background-image: url(../images/box2_img.jpg);
+}
+.news-box-opa {
+    background: rgba(250, 250, 250, 0.4);
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.news-box-opa-text {
+    font-weight: 700;
+    border-bottom: 7px solid var(--color);
+    width: 43%;
+    margin: 0 0 0 10px;
+    padding-top: -20px;
+}
+.news-box-opa-name-chair {
+    text-transform: uppercase;
+}
+
+
+
+.news-textbox {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(212, 212, 212);
+    padding: 30px 20px;
+}
+.news-textbox p {
+    margin-left: 0;
+}
+.news-textbox p:nth-child(n+2) {
+    margin-left: 0;
+    line-height: 22px
+}

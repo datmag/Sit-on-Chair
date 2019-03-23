@@ -1,0 +1,62 @@
+/* -------------------------------------------- */
+/* klasy globalne */
+/* -------------------------------------------- */
+
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
+.main-section {
+    padding: 40px 0;
+}
+
+.container {
+    width: 1055px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 22px;
+    color: #575757;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 6px;
+    border-bottom: 7px solid var(--color);
+    width: 320px;
+    margin-bottom: 46px;
+}
+
+.btn {
+    border:0;
+    display: inline-block;
+    color: #fff;
+    background: var(--color);
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.5s background;
+}
+.btn:hover {
+    background: var(--color2);
+}
+
+.row {
+    margin-left:-15px;
+    margin-right:-15px;
+    display: flex;
+}
+.row .col-1-3 {
+    padding:0 15px;
+    width: 33.3333%;
+}

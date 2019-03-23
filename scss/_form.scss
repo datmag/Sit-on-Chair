@@ -1,0 +1,79 @@
+/* -------------------------------------------- */
+/* formularz */
+/* -------------------------------------------- */
+
+
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+.form-left {
+    width: 635px;
+}
+.form-right {
+    width: 345px;
+}
+.form-addition {
+    height: 200px;
+    background: url(../images/red_chair.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top:-25px;
+    margin-bottom:30px;
+}
+.form-row {
+    margin-bottom: 25px;
+}
+.form-control {
+    height: 68px;
+    border: 1px solid var(--color);
+    font-size: 33px;
+    font-weight: 300;
+    width: 100%;
+    padding: 0 10px;
+    outline:none;
+}
+.form-control:focus {
+    box-shadow:inset 0 0 0 1px var(--color);
+}
+.form-control::placeholder {
+    color: #bbb;
+}
+textarea.form-control {
+    height:180px;
+    resize: none;
+    padding: 10px;
+}
+.form-submit-btn {
+    width:100%;
+    font-size:34px;
+    font-weight: bold;
+    padding:20px;
+}
+.checkbox {
+    display: flex;
+    cursor: pointer;
+    margin-bottom:30px;
+}
+.checkbox-input {
+    width: 50px;
+    height: 50px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid var(--color);
+    flex-shrink: 0;
+    cursor: pointer;
+    outline: none;
+    margin-right: 15px;
+}
+.checkbox-input:checked {
+    background-image: url(../images/form_ok.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.checkbox-text {
+    font-size: 20px;
+    font-weight: 300;
+    color: #aaa;
+}

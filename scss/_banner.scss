@@ -1,0 +1,84 @@
+/* -------------------------------------------- */
+/* slider */
+/* -------------------------------------------- */
+
+.main-banner-bg {
+    background: linear-gradient(#fafafa, #ddd);
+}
+
+
+
+.banner {
+    height: 505px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-prev,
+.banner-next {
+    width: 100px;
+    font-size: 70px;
+    color: var(--color);
+    border:0;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+.banner-prev:active,
+.banner-next:active {
+    color: #000;
+}
+.banner-next {
+    order: 1;
+}
+
+
+
+.banner-slides {
+    background: linear-gradient(#fafafa, #ddd);
+    flex-grow: 1;
+    position: relative;
+}
+.banner-slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 1s;
+    display: flex;
+}
+.banner-slide-show {
+    opacity: 1;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.banner-slide-side {
+    width: 45%;
+}
+.banner-slide-side img {
+    width: 100%;
+}
+
+
+
+.banner-content-side {
+    width: 55%;
+    text-align: center;
+    padding: 50px;
+}
+.banner-content-side p:nth-child(2) {
+    line-height: 25px;
+}
+.banner-content-title {
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.banner-content-title span {
+    color: var(--color);
+    font-weight: 700;
+}
+.banner-content-more-button {}
